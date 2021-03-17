@@ -1,5 +1,9 @@
 # zatoga
-A PWA to easily get distracted with...
+An offline PWA to easily get distracted with by:
+* Playing Games
+* Reading News
+* more features to come soon
+
 
 Availible at:
 * https://zatoga.irom.ga/
