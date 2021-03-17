@@ -37,8 +37,13 @@ if(inApp) {
   window.addEventListener('resize', () => {
     window.resizeTo(422, 584);
   });
-  if(!navigator.onLine) {
-    alert("You are offline but the app will still work!");
+}
+
+// Online only content
+if(inApp && navigator.onLine) {
+  var x = document.getElementsByClassName("online");
+  for(i=0;i<x.length;i++) {
+    x[i].style.display = "block";
   }
 }
 

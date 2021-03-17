@@ -63,3 +63,7 @@ img.small {
     transform: rotate(359deg);
   }
 }
+
+.online {
+  display: none;
+}
