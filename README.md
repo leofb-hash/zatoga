@@ -10,4 +10,3 @@ Availible at:
 * https://zatoga.irom1.repl.co/
 * https://zatoga.netlify.app/
 * https://zatoga.pages.dev/
-* https://irom1.github.io/zatoga/
