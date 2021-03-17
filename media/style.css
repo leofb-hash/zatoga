@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: white;
+}
+body.welcome {
+  text-align: center;
+}
+a {
+  background-color: seagreen;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+span.back {
+  display: block;
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:50px;
+  height:50px;
+  background-color: seagreen;
+  color: seagreen;
+  z-index: 3;
+  border-bottom-right-radius: 25px;
+  cursor: pointer;
+  transition: 0.5s width;
+  overflow: hidden;
+  font-family: Arial !important;
+  font-size: 30pt;
+  text-align: left;
+}
+span.back::after {
+  content: "Go back home";
+}
+span.back:hover {
+  width: 100%;
+  color: white;
+}
+#installApp {
+  display: none;
+}
+img.rotate {
+  animation: rotation 2s infinite linear;
+  width: 300px;
+}
+img.small {
+  width: 75px;
+  vertical-align: middle;
+}
+.small {
+  display: inline;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

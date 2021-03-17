@@ -1,0 +1,16 @@
+{
+  "name": "Clark",
+  "short_name": "Clark",
+  "start_url": "/app.html",
+  "display": "standalone",
+  "scope": "/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "media/icon.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}
