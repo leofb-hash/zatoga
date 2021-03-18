@@ -1,4 +1,4 @@
-var version = 2.0;
+var version = 2;
 
 const staticClark = "clark-app-v2";
 const assets = [
