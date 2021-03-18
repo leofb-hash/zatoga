@@ -2,11 +2,11 @@
 An offline PWA to easily get distracted with by:
 * Playing Games
 * Reading News
-* more features to come soon
+* more features to come soon...
 
 
-Availible at:
-* https://zatoga.irom.ga/
-* https://zatoga.irom1.repl.co/
-* https://zatoga.netlify.app/
-* https://zatoga.pages.dev/
+### Hosting:
+* **Fast**: https://zatoga.irom.ga/
+* **Fast:** https://zatoga.netlify.app/
+* **Stable:** https://zatoga.pages.dev/
+* **Testing:** https://zatoga.irom1.repl.co/

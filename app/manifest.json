@@ -1,7 +1,7 @@
 {
   "name": "Zatoga",
   "short_name": "Zatoga",
-  "start_url": "/app.html",
+  "start_url": "/app/",
   "display": "standalone",
   "scope": "/",
   "background_color": "#000000",
@@ -9,7 +9,7 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "media/icon.png",
+      "src": "/media/icon.png",
       "type": "image/png", "sizes": "512x512"
     }
   ]

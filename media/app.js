@@ -1,5 +1,6 @@
 // Know if in the app
 var inApp = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+var onApp = (location.pathname == "/app/");
 
 // this event will only fire if the user does not have the pwa installed
 window.addEventListener('beforeinstallprompt', (event) => {
@@ -28,7 +29,8 @@ if ("serviceWorker" in navigator) {
 }
 // App install
 window.addEventListener('appinstalled', () => {
-  location.href = "/app.html";
+  alert("yay");
+  location.href = "/app/";
 });
 
 // Force app size
@@ -40,7 +42,7 @@ if(inApp) {
 }
 
 // Online only content
-if(inApp && navigator.onLine) {
+if(onApp && navigator.onLine) {
   var x = document.getElementsByClassName("online");
   for(i=0;i<x.length;i++) {
     x[i].style.display = "block";
@@ -48,7 +50,7 @@ if(inApp && navigator.onLine) {
 }
 
 // Message stuff
-if(inApp) {
+if(onApp) {
   var messages = [
     "There is plenty of time to get stuff done later - why don't you play some games now?",
     "Ready to get distracted...?",
