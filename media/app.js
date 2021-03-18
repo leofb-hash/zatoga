@@ -29,7 +29,6 @@ if ("serviceWorker" in navigator) {
 }
 // App install
 window.addEventListener('appinstalled', () => {
-  alert("yay");
   location.href = "/app/";
 });
 
