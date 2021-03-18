@@ -25,7 +25,7 @@ span.back {
   height:50px;
   background-color: seagreen;
   color: seagreen;
-  z-index: 3;
+  z-index: 333333333333;
   border-bottom-right-radius: 25px;
   cursor: pointer;
   transition: 0.5s width;
@@ -63,7 +63,6 @@ img.small {
     transform: rotate(359deg);
   }
 }
-
 .online {
   display: none;
 }
