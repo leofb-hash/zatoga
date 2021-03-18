@@ -6,7 +6,7 @@ An offline PWA to easily get distracted with by:
 
 
 ### Hosting:
-* **Fast**: https://zatoga.irom.ga/
+* **Fast (recommended):** https://zatoga.irom.ga/
 * **Fast:** https://zatoga.netlify.app/
 * **Stable:** https://zatoga.pages.dev/
 * **Testing:** https://zatoga.irom1.repl.co/
