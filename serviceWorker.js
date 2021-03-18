@@ -1,4 +1,4 @@
-var version = 2.0.2;
+var version = 2.0.3;
 
 const staticZatoga = "zatoga-app-v2";
 const assets = [
@@ -21,7 +21,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticClark).then(cache => {
+    caches.open(staticZatoga).then(cache => {
       cache.addAll(assets)
     })
   )
