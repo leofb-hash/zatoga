@@ -33,6 +33,15 @@ span.back {
   font-family: Arial !important;
   font-size: 30pt;
   text-align: left;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+span.back.top {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 25px;
+  top:0px !important;
+  border-top: none;
+  border-bottom: 2px solid white;
 }
 span.back::after {
   content: "Go back home";
