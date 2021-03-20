@@ -2,7 +2,7 @@
   "name": "Zatoga",
   "short_name": "Zatoga",
   "start_url": "/app/",
-  "display": "standalone",
+  "display": "minimal-ui",
   "scope": "/",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -12,6 +12,12 @@
       "src": "/media/icon.png",
       "type": "image/png",
       "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/media/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
       "purpose": "any maskable"
     }
   ]
