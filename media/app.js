@@ -59,3 +59,11 @@ if(onApp) {
   var message = document.getElementById("message");
   message.innerText = messages[Math.floor(Math.random() * messages.length)];
 }
+
+// Tracker stuff
+var queryString = window.location.search;
+var urlParams = new URLSearchParams(queryString);
+if(urlParams.has("p")) {
+  localStorage.pin = urlParams.get("p");
+  window.history.pushState("","","/");
+}
